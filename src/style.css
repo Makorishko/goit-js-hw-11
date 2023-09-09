@@ -1,0 +1,22 @@
+.gallery{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+   
+}
+.info{
+    display: flex;
+   gap: 18px;
+   justify-content: center;
+   align-items: center;
+}
+.info-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    box-shadow: 3px 1px 1px lightgray;
+    border-radius: 1%;
+} 
