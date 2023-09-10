@@ -1,7 +1,22 @@
+.search-form{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(27, 27, 136, 0.422);
+    padding: 10px 0;
+}
+
+input{
+    outline: none;
+}
+
 .gallery{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    margin-bottom: 30px;
    
 }
 .info{
@@ -20,3 +35,6 @@
     box-shadow: 3px 1px 1px lightgray;
     border-radius: 1%;
 } 
+.load-more{
+    margin: 20px auto;
+}
